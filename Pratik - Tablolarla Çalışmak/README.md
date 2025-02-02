@@ -1,35 +1,35 @@
-📚 Sınıf Tablosu Projesi
+# 📚 Sınıf Tablosu Projesi
 
-Bu proje, HTML, CSS ve JavaScript kullanılarak oluşturulmuş bir Sınıf Tablosu uygulamasıdır. Kullanıcılar öğrenci ekleyebilir ve silebilir. 🚀
+Bu proje, **HTML, CSS ve JavaScript** kullanılarak geliştirilen bir **Sınıf Tablosu Uygulaması**dır. Kullanıcılar öğrenci ekleyebilir ve silebilir. 🚀
 
-📌 Özellikler
+---
 
-📝 Öğrenci Ekleme: "Öğrenci Ekle" butonuna tıklayarak tabloya yeni öğrenci eklenebilir.
+## 📌 Özellikler
 
-❌ Öğrenci Silme: Her öğrenci satırının sonunda bulunan "Sil" butonu ile öğrenci listeden kaldırılabilir.
+✅ **Öğrenci Ekleme** – "Öğrenci Ekle" butonu ile tabloya yeni öğrenci eklenebilir.  
+❌ **Öğrenci Silme** – Her öğrenci satırının sonunda bulunan "Sil" butonu ile öğrenci listeden kaldırılabilir.  
+🎨 **Modern Tasarım** – Kullanıcı dostu ve estetik bir tablo görünümü.  
+⚡ **Dinamik İşlevsellik** – JavaScript ile etkileşimli işlemler.  
 
-🎨 Şık Tasarım: Kullanıcı dostu, modern bir tablo görünümü.
+---
 
-⚡ Dinamik İşlevsellik: JavaScript ile etkileşimli işlemler.
+## 🛠️ Kullanım
 
-🛠️ Kullanım
+1. **Projeyi Açın** – HTML dosyasını bir tarayıcıda açın.  
+2. **Öğrenci Ekleyin** – "Öğrenci Ekle" butonuna tıklayarak listeye yeni bir öğrenci ekleyin.  
+3. **Öğrenci Silin** – Listedeki herhangi bir öğrencinin yanındaki "Sil" butonuna basarak o öğrenciyi kaldırın.  
 
-Projeyi açın: HTML dosyasını bir tarayıcıda açın.
+---
 
-Öğrenci ekleyin: "Öğrenci Ekle" butonuna basarak yeni bir öğrenci ekleyin.
+## 📜 Kod Yapısı
 
-Öğrenci silin: Listede bulunan herhangi bir öğrencinin yanındaki "Sil" butonuna basarak o öğrenciyi kaldırın.
+📌 **HTML** – Sayfanın temel yapısını oluşturur.  
+🎨 **CSS** – Tablo ve butonların stilini belirler.  
 
-📜 Kod Yapısı
+---
 
-HTML 🏗️: Sayfa yapısını oluşturur.
+## 💡 Geliştirme Önerileri
 
-CSS 🎨: Tablo ve butonlar için stil sağlar.
-
-💡 Geliştirme Önerileri
-
-🔍 Öğrenci arama ve filtreleme özelliği eklenebilir.
-
-📊 Not ortalaması hesaplama ve gösterme fonksiyonu eklenebilir.
-
-📅 Doğum tarihine göre sıralama yapılabilir.
+🔍 **Öğrenci Arama ve Filtreleme** – İsim veya numaraya göre öğrenci arama özelliği eklenebilir.  
+📊 **Not Ortalaması Hesaplama** – Öğrencilerin not ortalaması hesaplanarak görüntülenebilir.  
+📅 **Doğum Tarihine Göre Sıralama** – Öğrenciler doğum tarihine göre sıralanabilir.  
