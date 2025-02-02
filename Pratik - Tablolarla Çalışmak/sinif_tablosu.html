@@ -10,19 +10,26 @@
             margin: 40px;
             text-align: center;
             background-color: #9b9aa0;
+            background-image: url("images/360_F_900901151_ummAjY6YiRzRBUd2HRSXhtLGUWp0inur.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
         }
 
         table {
-            width: 100%;
+            width: 50%;
             border-collapse: collapse;
-            margin-top: 20px;
+            margin: 20px auto;
         }
+
         th, td {
-            border: 1px solid #000000;
-            padding: 12px;
+            border: 3px solid #000000;
+            padding: 15px;
             text-align: left;
             font-weight: bold;
         }
+
         th {
             background-color: #2600ffa2;
             color: white;
@@ -47,11 +54,28 @@
             transform: scale(0.96);
 
         }
+        .new-ogrenci{
+            color: green;
+        }
+        .ogrenci-tablosu{
+            background-color: #ffffffe3;
+        }
+        .ogrenciBaslik{
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 100px;
+            transition: background-color 0.8s ease, transform 0.4s ease;
+        }
+
+        .ogrenciBaslik:hover{
+            color: #ffffff;
+            transform: scale(0.96);
+        }
     </style>
 </head>
 <body>
-    <h1 class="ogrenciBaslik">ÖĞRENCİLER TABLOSU</h1>
-    <table id="ogrenci-tablosu">
+    <h1 class="ogrenciBaslik">SINIF TABLOSU</h1>
+    <table class="ogrenci-tablosu">
         <thead>
             <tr>
                 <th>Öğrenci Numarası</th>
@@ -67,28 +91,42 @@
                 <td>Serhat</td>
                 <td>Uzun</td>
                 <td>89</td>
-                <td>2003</td>
+                <td>15-12-2003</td>
             </tr>
             <tr>
                 <td>304</td>
                 <td>Elif Nur</td>
                 <td>Kaya</td>
                 <td>100</td>
-                <td>2002</td>
+                <td>07-07-2002</td>
             </tr>
             <tr>
                 <td>198</td>
                 <td>Fatma Nisa</td>
                 <td>Kaya</td>
                 <td>76</td>
-                <td>2007</td>
+                <td>23-06-2007</td>
             </tr>
             <tr>
                 <td>133</td>
                 <td>Beyzanur </td>
                 <td>Uzun</td>
                 <td>75</td>
-                <td>2009</td>
+                <td>14-04-2009</td>
+            </tr>
+            <tr class="new-ogrenci">
+                <td>321</td>
+                <td>Barlas</td>
+                <td>Uzun</td>
+                <td>75</td>
+                <td>15-12-2010</td>
+            </tr>
+            <tr class="new-ogrenci">
+                <td>141</td>
+                <td>Lina</td>
+                <td>Uzun</td>
+                <td>100</td>
+                <td>08-12-2014</td>
             </tr>
         </tbody>
     </table>
