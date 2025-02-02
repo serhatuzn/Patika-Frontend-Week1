@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patika Tablolarla Çalışmak</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            text-align: center;
+            background-color: #9b9aa0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #000000;
+            padding: 12px;
+            text-align: left;
+            font-weight: bold;
+        }
+        th {
+            background-color: #2600ffa2;
+            color: white;
+            font-weight: bold;
+        }
+
+        .ogrenci-ekle{
+            text-align: left;
+            background-color: #47dacdb9;
+            color: #000000;
+            font-weight: bold;
+            font-size: 15px;
+            padding: 9px 30px;
+            border-radius: 150px;
+            cursor: pointer;
+            margin-top: 20px;
+            text-decoration: none;
+            transition: background-color 0.8s ease, transform 0.4s ease;
+        }
+        .ogrenci-ekle:hover{
+            background-color: #8a4a4aa2;
+            transform: scale(0.96);
+
+        }
+    </style>
+</head>
+<body>
+    <h1 class="ogrenciBaslik">ÖĞRENCİLER TABLOSU</h1>
+    <table id="ogrenci-tablosu">
+        <thead>
+            <tr>
+                <th>Öğrenci Numarası</th>
+                <th>Adı</th>
+                <th>Soyadı</th>
+                <th>Notu</th>
+                <th>Doğum Tarihi</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>185</td>
+                <td>Serhat</td>
+                <td>Uzun</td>
+                <td>89</td>
+                <td>2003</td>
+            </tr>
+            <tr>
+                <td>304</td>
+                <td>Elif Nur</td>
+                <td>Kaya</td>
+                <td>100</td>
+                <td>2002</td>
+            </tr>
+            <tr>
+                <td>198</td>
+                <td>Fatma Nisa</td>
+                <td>Kaya</td>
+                <td>76</td>
+                <td>2007</td>
+            </tr>
+            <tr>
+                <td>133</td>
+                <td>Beyzanur </td>
+                <td>Uzun</td>
+                <td>75</td>
+                <td>2009</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
