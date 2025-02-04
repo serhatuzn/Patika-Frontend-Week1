@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kullanıcı Kayıt Formu</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #ffffff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        color: #ffffff;
+      }
+
+      .container {
+        background: rgba(17, 17, 17, 0.733);
+        padding: 50px;
+        border-radius: 20px;
+        box-shadow: 0px 9px 10px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 400px;
+      }
+
+      h1 {
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .form-group {
+        margin-bottom: 15px;
+      }
+
+      label {
+        font-weight: bold;
+        display: block;
+        margin-bottom: 5px;
+      }
+
+      input,
+      select,
+      textarea {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+
+      .gender-group {
+        display: flex;
+        gap: 10px;
+      }
+
+      .gender-group label {
+        font-weight: normal;
+      }
+
+      .submit-btn {
+        width: 100%;
+        padding: 10px;
+        background-color: #00ff4c;
+        border: none;
+        color: rgb(0, 0, 0);
+        font-size: 16px;
+        font-weight: bold;
+        cursor: pointer;
+        border-radius: 5px;
+        transition: 0.3s;
+      }
+
+      .submit-btn:hover {
+        background-color: #0056b3;
+      }
+
+      .male {
+        color: #0026ff;
+      }
+
+      .female {
+        color: #ff00dd;
+      }
+
+      body {
+        background-image: url(./assets/images/pexels-andrew-3178786.jpg);
+        background-size: cover; /* Resmi ekranın tamamına yay */
+        background-position: center; /* Ortala */
+        background-attachment: fixed; /* Sayfa kaydırıldığında sabit kalsın */
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kullanıcı Kayıt Formu</h1>
+      <form action="#" method="post">
+
+        <!-- Ad Soyad için bir input-type'e text yapıyoruz -->
+
+        <div class="form-group">
+          <label for="fname">Ad:</label>
+          <input type="text" id="fname" name="fname" required />
+        </div>
+
+        <div class="form-group">
+          <label for="lname">Soyad:</label>
+          <input type="text" id="lname" name="lname" required />
+        </div>
+
+        <!-- İnput Type  ile email ile kullanıcan email almak için bi form oluşturuyoruz -->
+
+        <div class="form-group">
+          <label for="email">E-posta:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+
+        <!-- Paassword için özel olan input type kullanıyoruz çünkü girdiğimiz şifre gizlencek -->
+
+        <div class="form-group">
+          <label for="paswd">Şifre:</label>
+          <input type="password" id="paswd" name="paswd" required />
+        </div>
+        
+        
+        <!-- Cinsiyet için RADİO ile bi form oluşturuyoruz ve bu formu radio ile yapıyoruz -->
+        <div class="form-group">
+          <label>Cinsiyet:</label>
+          <div class="gender-group">
+            <input type="radio" id="male" name="gender" value="male" required />
+            <label for="male" class="male">Erkek</label>
+            <input
+              type="radio"
+              id="female"
+              name="gender"
+              value="female"
+              required
+            />
+            <label for="female" class="female">Kadın</label>
+          </div>
+        </div>
+        
+        <!-- Kullanıcının Mesaj Göndermek için bir metin kutusu yapıyoruz -->
+        <div class="form-group">
+          <label for="message">Mesaj:</label>
+          <textarea id="message" name="message" rows="4"></textarea>
+        </div>
+
+        <!-- Favari Meyveyi seçmek için select ile açılıp kapanan bir sekme yapıyoruz-->
+        <div class="form-group">
+          <label for="fruit">Favori Meyve:</label>
+          <select id="fruit" name="fruit">
+            <option value="apple">Elma</option>
+            <option value="banana">Muz</option>
+            <option value="strawberry">Çilek</option>
+          </select>
+        </div>
+        <input type="submit" class="submit-btn" value="Gönder" />
+      </form>
+    </div>
+  </body>
+</html>
